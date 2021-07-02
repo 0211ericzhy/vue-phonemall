@@ -1831,3 +1831,19 @@ name: "MongoError"
 pid: 9412
 hostname: STU008
 
+2021-07-02 12:28:50,149 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 451190ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-02 12:40:08,006 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 637634ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+

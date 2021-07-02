@@ -196,3 +196,9 @@
 2021-07-02 11:30:20,045 INFO 10720 [egg-schedule]: register schedule /Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-multipart@2.12.0@egg-multipart/app/schedule/clean_tmpdir.js
 2021-07-02 11:30:20,045 INFO 10720 [egg-schedule]: register schedule /Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
 2021-07-02 11:30:20,045 INFO 10720 [egg-schedule]: register schedule /Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-07-02 12:07:17,242 INFO 13457 [egg-schedule]: register schedule /Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-multipart@2.12.0@egg-multipart/app/schedule/clean_tmpdir.js
+2021-07-02 12:07:17,242 INFO 13457 [egg-schedule]: register schedule /Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2021-07-02 12:07:17,242 INFO 13457 [egg-schedule]: register schedule /Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2021-07-02 12:07:17,833 INFO 13456 [Timer] /Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-multipart@2.12.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 58962169ms at 2021-07-03 04:30:00.002
+2021-07-02 12:07:17,833 INFO 13456 [Timer] /Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 42762167ms at 2021-07-03 00:00:00.000
+2021-07-02 12:07:17,833 INFO 13456 [Timer] /Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 42763167ms at 2021-07-03 00:00:01.000

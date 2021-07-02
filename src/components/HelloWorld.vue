@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <div class="box"></div>
-  </div>
+  <div></div>
 </template>
 
 <script>
@@ -21,9 +19,5 @@ export default {
 </script>
 
 <style lang='scss' scoped>
-.box{
-  width: 300px;
-  height: 300px;
-  background-color: pink;
-}
+
 </style>
