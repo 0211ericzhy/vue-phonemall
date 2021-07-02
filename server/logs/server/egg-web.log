@@ -744,3 +744,12 @@
 2021-07-02 12:28:50,149 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
 2021-07-02 12:28:50,150 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
 2021-07-02 12:40:08,003 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-02 12:54:35,004 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-02 12:54:35,005 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-02 12:58:47,006 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-02 12:58:47,006 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-02 13:09:39,006 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-02 13:09:39,006 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-02 18:15:24,005 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-02 21:55:21,005 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-02 21:55:21,005 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again

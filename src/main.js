@@ -2,6 +2,12 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import Vant from 'vant';
+import 'vant/lib/index.css';
+// 把api挂载成全局变量
+import api from './http/api';
+Vue.prototype.$api=api
+Vue.use(Vant);
 
 Vue.config.productionTip = false
 
