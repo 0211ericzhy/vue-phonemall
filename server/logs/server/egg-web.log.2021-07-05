@@ -1,0 +1,131 @@
+2021-07-05 00:01:11,172 INFO 13457 [egg-logrotator] app logger reload: got log-reload message
+2021-07-05 00:11:15,002 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 00:11:15,003 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 00:21:25,002 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 00:31:33,002 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 00:41:41,002 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 00:41:41,003 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 00:51:49,002 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 01:01:55,004 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 01:01:55,004 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 01:11:28,004 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 01:11:28,004 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 01:21:05,006 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 01:21:05,133 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 01:31:18,379 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 01:31:18,393 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 01:41:32,280 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 01:41:32,387 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 01:51:44,270 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 01:51:44,344 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 02:01:58,375 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 02:01:58,378 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 02:12:08,346 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 02:12:08,349 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 02:22:19,320 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 02:22:19,343 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 02:32:28,256 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 02:32:28,351 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 02:42:40,280 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 02:42:40,356 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 02:52:51,267 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 02:52:51,300 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 03:03:01,276 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 03:03:01,284 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 03:13:13,216 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 03:13:13,281 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 03:23:24,263 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 03:23:24,327 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 03:33:34,296 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 03:33:34,355 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 03:43:45,317 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 03:43:45,347 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 03:53:55,294 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 03:53:55,313 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 04:04:06,262 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 04:04:06,362 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 04:14:16,270 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 04:14:16,344 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 04:24:27,275 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 04:24:27,288 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 04:34:36,258 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 04:34:36,328 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 04:34:36,452 INFO 13457 [-/127.0.0.1/-/33ms SCHEDULE /__schedule?path=/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-multipart@2.12.0@egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/7w/j0ntjn2j2_d12txq2w5wdq9h0000gn/T/egg-multipart-tmp/server"
+2021-07-05 04:34:36,506 INFO 13457 [-/127.0.0.1/-/93ms SCHEDULE /__schedule?path=/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-multipart@2.12.0@egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&disable=false&immediate=false] [egg-multipart:CleanTmpdir] end
+2021-07-05 04:44:50,337 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 04:44:50,340 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 04:55:01,284 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 04:55:01,335 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 05:05:12,262 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 05:05:12,283 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 05:15:23,339 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 05:15:23,346 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 05:25:33,227 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 05:25:33,275 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 05:35:44,299 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 05:35:44,342 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 05:45:55,333 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 05:45:55,346 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 05:56:09,386 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 05:56:09,397 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 06:06:18,245 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 06:06:18,281 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 06:16:31,383 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 06:16:31,395 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 06:26:42,233 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 06:26:42,338 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 06:36:52,288 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 06:36:52,343 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 06:47:02,286 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 06:47:02,295 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 06:57:14,188 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 06:57:14,224 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 07:07:24,299 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 07:07:24,310 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 07:17:34,349 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 07:17:34,356 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 07:27:46,343 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 07:27:46,345 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 07:37:57,234 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 07:37:57,269 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 08:24:56,262 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 08:24:56,377 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 08:28:47,356 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 08:28:47,366 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 08:31:35,162 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 08:31:35,781 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 09:00:01,007 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 09:00:01,007 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 09:36:29,005 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 12:16:55,004 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 12:16:55,005 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 12:23:56,005 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 12:23:56,005 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 13:05:50,005 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 14:47:03,003 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 16:13:01,006 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 16:13:01,007 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 17:08:44,005 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 17:08:44,009 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 19:37:38,004 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 21:25:56,004 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 21:25:56,005 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 22:27:48,006 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 22:27:48,006 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 22:43:17,003 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 22:43:17,003 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 22:55:42,002 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 22:55:42,003 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 23:05:48,005 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 23:05:48,005 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 23:07:58,002 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 23:17:36,931 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 23:17:37,209 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 23:27:49,271 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 23:27:49,293 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 23:38:03,377 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 23:38:03,381 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-05 23:42:42,795 WARN 13457 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2021-07-05 23:42:42,885 WARN 13457 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-07-06 00:00:32,890 INFO 13457 [egg-logrotator] broadcast log-reload
+2021-07-06 00:00:32,891 INFO 13457 [egg-logrotator] rotate files success by DayRotator, files ["/Users/Eric/Desktop/vue-phonemall/server/logs/server/common-error.log -> /Users/Eric/Desktop/vue-phonemall/server/logs/server/common-error.log.2021-07-05","/Users/Eric/Desktop/vue-phonemall/server/logs/server/server-web.log -> /Users/Eric/Desktop/vue-phonemall/server/logs/server/server-web.log.2021-07-05","/Users/Eric/Desktop/vue-phonemall/server/logs/server/egg-web.log -> /Users/Eric/Desktop/vue-phonemall/server/logs/server/egg-web.log.2021-07-05","/Users/Eric/Desktop/vue-phonemall/server/logs/server/egg-schedule.log -> /Users/Eric/Desktop/vue-phonemall/server/logs/server/egg-schedule.log.2021-07-05","/Users/Eric/Desktop/vue-phonemall/server/logs/server/egg-agent.log -> /Users/Eric/Desktop/vue-phonemall/server/logs/server/egg-agent.log.2021-07-05"]

@@ -6,10 +6,9 @@ export default {
         return http.get('/recommend')
     },
     //搜索
-    search(value, page = 1) {
+    search(value) {
         return http.post('/search', {
-            value,
-            page
+            value
         })
     },
     // 分类查询
@@ -49,23 +48,23 @@ export default {
         })
     },
     // 单个商品详情
-    goodOne(id, page = 1) {
-        return http.get(`/goods/one?id=${id}&page=${page}`)
+    goodOne({id}) {
+        return http.get(`/goods/one?id=${id}`)
     },
     // 收藏单个商品(post)
     collection(goods) {
         return http.post('/collection', goods)
     },
     // 取消收藏(post)
-    cancelCollection(id) {
+    cancelCollection({id}) {
         return http.post('/cancelCollection', { id })
     },
     // 查询商品是否已收藏(post)
-    isCollection(id) {
+    isCollection({id}) {
         return http.post(`/isCollection`, { id })
     },
     // 加入购物车(post)
-    addShop(id) {
+    addShop({id}) {
         return http.post(`/addShop`, { id })
     },
     // 退出登录(post)
@@ -153,7 +152,7 @@ export default {
         })
     },
     // 注册(post)
-    register(nickname, password, verify) {
+    register({nickname, password, verify}) {
         return http.post('/register', {
             nickname,
             password,
@@ -161,13 +160,18 @@ export default {
         })
     },
     // 登录(post)
-    login(nickname, password, verify,) {
+    login({nickname, password, verify}) {
         return http.post('/login', {
             nickname,
             password,
             verify
         })
     },
+     // 默认验证码
+     verify() {
+        return http.get('/verify')
+    },
+
     // 订单查询(get)
     getMyOrder() {
         return http.get(`/myOrder`)

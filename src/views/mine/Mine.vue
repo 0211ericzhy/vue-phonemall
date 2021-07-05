@@ -1,25 +1,26 @@
 <template>
   <div>
-      我的
+    我的<layout></layout>
   </div>
 </template>
 
 <script>
+import Layout from '../layout/Layout.vue';
+
+
 export default {
-  name: '',
-  props:{},
-  data () {
-    return {
-    }
+  name: "",
+  props: {},
+  data() {
+    return {};
   },
-  components: {},
+  components: {Layout  },
   methods: {},
   mounted() {},
   computed: {},
-  watch: {}
-}
+  watch: {},
+};
 </script>
 
 <style lang='scss' scoped>
-
 </style>

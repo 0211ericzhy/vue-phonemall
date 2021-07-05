@@ -14,6 +14,15 @@ const routes = [
       title: '首页',
     }
   },
+  // 分类
+  {
+    path: '/Goods',
+    name: 'Goods',
+    component: () => import('../views/goods/Goods.vue'),
+    meta: {
+      title: '货物分类',
+    }
+  },
   // 有货物购物车
   {
     path: '/ShoppingCar',
