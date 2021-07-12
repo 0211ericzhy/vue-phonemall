@@ -26,6 +26,7 @@ export default {
   methods: {
     details(id){
       // console.log(id);
+      this.$utils.saveHistory({data:id,attr:'name'})
       this.$router.push({ path: "/Details", query: { ids: id } });
     }
   },

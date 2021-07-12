@@ -5,17 +5,33 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    city:localStorage.getItem('city'),
-    user1:localStorage.getItem('user')
+    city: localStorage.getItem('city'),
+    user1: localStorage.getItem('user'),
+    carlenghth: localStorage.getItem('carlen'),
+    // 类目一级
+    tips:localStorage.getItem('tips')
   },
   mutations: {
-    changecity(state,city1){
-      state.city=city1
+    // 城市
+    changecity(state, city1) {
+      state.city = city1
     },
-    getuser(state,user2){
-      state.user1=user2
+    // 登陆
+    getuser(state, user1) {
+      state.user = user1
+    },
+    // 购物车长度
+    getcarlength(state, carlen2) {
+      state.carlenghth = carlen2
+    } ,
+    // 收藏
+    // getcllect1(state, collect2) {
+    //   state.collectall = collect2
+    // }
+    // 类目
+    getips(state,tips2){
+      state.tips=tips2
     }
-
   },
   actions: {
   },

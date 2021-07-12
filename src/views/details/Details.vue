@@ -13,7 +13,7 @@
       <!-- 轮播图 -->
       <van-swipe class="my-swipe" :autoplay="3000" indicator-color="white">
         <van-swipe-item>
-          <img :src="goods.image_path" />
+          <img :src="goods.image_path" @click="show1" />
         </van-swipe-item>
         <van-swipe-item>
           <img :src="goods.image_path" @click="show1" />
@@ -55,17 +55,62 @@
             <van-tab title="商品详情">
               <div v-html="goods.detail"></div>
             </van-tab>
-            <van-tab title="商品评论">商品ping</van-tab>
+            <van-tab title="商品评论">
+              <div class="comm" v-for="(item, index) in goodsone" :key="index">
+                <div v-if="item.anonymous === false">
+                  <div
+                    v-for="(item1, index2) in item.user"
+                    :key="index2"
+                    class="comm2"
+                    
+                  >
+                    <div class="user-img">
+                      <img :src="item1.avatar" />
+                    </div>
+                    <div class="unsername">
+                      <div class="uer_head">
+                        <div class="usname">{{ item1.nickname }}:</div>
+                        <div class="timer">{{ item.comment_time }}</div>
+                      </div>
+                      <div class="user-fens">
+                        <van-rate v-model="item.rate" />
+                      </div>
+                      <div class="conent">{{ item.content }}</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="comm" v-else>
+                  <div class="comm2">
+                    <div class="user-img">
+                      <img :src="item.comment_avatar" alt="" />
+                    </div>
+                    <div class="unsername">
+                      <div class="uer_head">
+                        <div class="usname">{{ item.comment_nickname }}:</div>
+                        <div class="timer">{{ item.comment_time }}</div>
+                      </div>
+                      <div class="user-fens">
+                        <van-rate v-model="item.rate" />
+                      </div>
+                      <div class="conent">{{ item.content }}</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </van-tab>
           </van-tabs>
         </div>
       </div>
       <van-goods-action>
         <van-goods-action-icon icon="chat-o" text="首页" @click="retur" />
         <van-goods-action-icon icon="shop-o" text="购物车" />
+        <van-badge :content="usercar" class="box22">
+          <div class="child" />
+        </van-badge>
         <van-goods-action-button
           type="warning"
           text="加入购物车"
-          @click="addcar"
+          @click="checkLoggin"
         />
         <van-goods-action-button
           type="danger"
@@ -101,12 +146,12 @@
             </div>
             <div class="zonji">
               <div class="jian" @click="jian">-</div>
-              <input type="text" class="ipt"  v-model="nums"/>
+              <input type="text" class="ipt" v-model="nums" />
               <div class="plus" @click="plus">+</div>
             </div>
           </div>
           <!-- buy -->
-          <div class="buy">立即购买</div>
+          <div class="buy" @click="checkLoggin1">立即购买</div>
         </div>
       </van-popup>
     </div>
@@ -123,14 +168,16 @@ export default {
     return {
       ids: "",
       goods: "",
-      flag_collect: false,
+      flag_collect: true,
       active: "1",
       show: false,
       index: 0,
       images: [],
       showShare: "",
       showss: false,
-      nums:1
+      nums: 1,
+      idDirect: "",
+      goodsone: "",
     };
   },
   components: {
@@ -172,10 +219,10 @@ export default {
           .then((res) => {
             console.log(res);
             this.flag_collect = true;
-            console.log(this.flag_collect);
+            // console.log(this.flag_collect);
           })
           .catch((err) => {
-            console.log("轻松失败", err);
+            console.log("取消失败", err);
           });
       } else {
         Dialog({ message: "请登录" });
@@ -183,44 +230,84 @@ export default {
     },
     // 加入购物车
     addcar() {
-      if (this.username) {
-        this.$api
-          .addShop({ id: this.ids })
-          .catch((res) => {
-            console.log(res);
-            Dialog({ message: "购物车加入成功" });
-          })
-          .catch((err) => {
-            console.log("请求失败", err);
-          });
-      } else {
-        Dialog({ message: "请登录" });
-      }
+      // if (this.username) {
+      this.$api
+        .addShop({ id: this.ids })
+        .then((res) => {
+          console.log(res);
+          Dialog({ message: "购物车加入成功" });
+          // this.content=this.carlength
+          this.$api
+            .getCard()
+            .then((res) => {
+              console.log(res.shopList.length);
+              localStorage.setItem("carlen", res.shopList.length);
+              this.$store.commit("getcarlength", res.shopList.length);
+            })
+            .catch((err) => {
+              console.log(err);
+            });
+        })
+        .catch((err) => {
+          console.log("请求失败", err);
+        });
+      // } else {
+      //   Dialog({ message: "请登录" });
+      // }
     },
-    // 立即购买
+    // 封装
+    checkLoggin() {
+      this.$utils.checkLoggin({ key: this.username, next: this.addcar });
+    },
+
+    // 立即购买 进入购买
     onClickIcon() {
       this.showss = true;
       this.showShare = true;
+    },
+    checkLoggin1() {
+      this.$utils.checkLoggin({ key: this.username, next: this.addcar });
+    },
+    // 立即购买
+    buynow() {
+      this.$set(this.goods, "idDirect", true);
+      // this.$set(this.goods, "totalPrice", this.nums * this.goods.present_price);
+      // 商品数量
+      this.$set(this.goods, "count", this.nums);
+      this.$set(this.goods, "cid", this.goods.id);
+      let arr = [];
+      arr.push(this.goods);
+      console.log(arr);
+      // if (this.username) {
+      // 跳转结算页面
+      this.$router.push({
+        path: "/Settlement",
+        query: { allgoods: JSON.stringify(arr) },
+      });
+      // } else {
+      //   Dialog({ message: "请登陆" });
+      //   this.$router.push("/Loggin");
+      // }
     },
     closex() {
       this.showss = false;
       this.showShare = false;
     },
-    jian(){
-      if(this.nums<=1){
-        this.nums=1
-      }else{
-        this.nums--
+    jian() {
+      if (this.nums <= 1) {
+        this.nums = 1;
+      } else {
+        this.nums--;
       }
     },
-    plus(){
-      if(this.nums>49){
-        this.nums=50
-      }else{
-        this.nums++
+    plus() {
+      if (this.nums > 49) {
+        this.nums = 50;
+      } else {
+        this.nums++;
       }
     },
-    
+    // 商品评论
   },
   mounted() {
     this.ids = this.$route.query.ids;
@@ -229,7 +316,7 @@ export default {
       .then((res) => {
         // console.log(res);
         this.goods = res.goods.goodsOne;
-        console.log(this.goods);
+        // console.log(this.goods);
         this.images.push(this.goods.image);
       })
       .catch((err) => {
@@ -238,21 +325,38 @@ export default {
     this.$api
       .isCollection({ id: this.ids })
       .then((res) => {
-        console.log(res);
+        // console.log(res.isCollection);
         if (res.isCollection === 1) {
           // 收藏成功
-          flag_collect = true;
+          this.flag_collect = false;
+          console.log(this.flag_collect);
         } else {
-          flag_collect = false;
+          this.flag_collect = true;
         }
       })
       .catch((err) => {
         "请求失败", err;
       });
+    console.log(this.username);
+    // 商品评论
+    this.$api
+      .goodOne({ id: this.ids })
+      .then((res) => {
+        this.goodsone = res.goods.comment;
+        console.log(this.goodsone);
+        // console.log(res);
+      })
+      .catch((err) => {
+        console.log("请求失败", err);
+      });
   },
   computed: {
     username() {
-      return this.$store.state.user1;
+      return JSON.parse(this.$store.state.user1);
+    },
+    // 购物车长度
+    usercar() {
+      return this.$store.state.carlenghth;
     },
   },
   watch: {},
@@ -449,5 +553,54 @@ export default {
   width: 100%;
   height: 16.333vw;
   background-color: red;
+}
+.box22 {
+  position: relative;
+  top: -15px;
+  left: -41px;
+}
+.comm {
+  width: 100%;
+  height: 150px;
+  background-color: #fff;
+  display: flex;
+}
+.comm2 {
+  width: 100%;
+  height: 150;
+  background-color: #fff;
+  display: flex;
+}
+.user-img {
+  width: 50px;
+  height: 100px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 100px;
+  img {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+}
+.unsername {
+  width: 100%;
+  height: 100px;
+  .uer_head {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    .timer {
+      color: #eee;
+    }
+  }
+}
+.conent {
+  font-size: 20px;
+  margin-top: 15px;
+}
+.user-fens {
+  margin-top: 15px;
 }
 </style>

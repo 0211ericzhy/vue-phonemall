@@ -13,7 +13,7 @@
             <img :src="Floor1[0].image" alt="" @click="details(Floor1[0].goodsId)" />
           </div>
           <div class="bot">
-            <img :src="Floor1[4].image" alt=""  />
+            <img :src="Floor1[4].image" alt="" @click="details(Floor1[4].goodsId)"  />
           </div>
         </div>
         <div class="head_right">

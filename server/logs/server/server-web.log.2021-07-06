@@ -1,0 +1,199 @@
+2021-07-06 15:50:43,043 ERROR 13457 [-/127.0.0.1/-/9ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ '418fc60784d04e71beffe1ce5174c947': '' }" (type Object) at path "cid" for model "ShopList"
+    at model.Query.exec (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_mongoose@5.13.0@mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_mongoose@5.13.0@mongoose/lib/query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+messageFormat: undefined
+stringValue: "\"{ '418fc60784d04e71beffe1ce5174c947': '' }\""
+kind: "string"
+value: {"418fc60784d04e71beffe1ce5174c947":""}
+path: "cid"
+reason: null
+valueType: "Object"
+pid: 13457
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-06 15:50:51,834 ERROR 13457 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ '418fc60784d04e71beffe1ce5174c947': '' }" (type Object) at path "cid" for model "ShopList"
+    at model.Query.exec (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_mongoose@5.13.0@mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_mongoose@5.13.0@mongoose/lib/query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+messageFormat: undefined
+stringValue: "\"{ '418fc60784d04e71beffe1ce5174c947': '' }\""
+kind: "string"
+value: {"418fc60784d04e71beffe1ce5174c947":""}
+path: "cid"
+reason: null
+valueType: "Object"
+pid: 13457
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-06 15:50:51,836 ERROR 13457 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ '24afea564e5248b5a2bc59da95f09911': '' }" (type Object) at path "cid" for model "ShopList"
+    at model.Query.exec (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_mongoose@5.13.0@mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_mongoose@5.13.0@mongoose/lib/query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+messageFormat: undefined
+stringValue: "\"{ '24afea564e5248b5a2bc59da95f09911': '' }\""
+kind: "string"
+value: {"24afea564e5248b5a2bc59da95f09911":""}
+path: "cid"
+reason: null
+valueType: "Object"
+pid: 13457
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-06 15:52:09,066 ERROR 13457 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: '418fc60784d04e71beffe1ce5174c947' }" (type Object) at path "cid" for model "ShopList"
+    at model.Query.exec (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_mongoose@5.13.0@mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_mongoose@5.13.0@mongoose/lib/query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+messageFormat: undefined
+stringValue: "\"{ id: '418fc60784d04e71beffe1ce5174c947' }\""
+kind: "string"
+value: {"id":"418fc60784d04e71beffe1ce5174c947"}
+path: "cid"
+reason: null
+valueType: "Object"
+pid: 13457
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-06 15:57:16,941 ERROR 13457 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: [ '418fc60784d04e71beffe1ce5174c947' ] }" (type Object) at path "cid" for model "ShopList"
+    at model.Query.exec (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_mongoose@5.13.0@mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_mongoose@5.13.0@mongoose/lib/query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+messageFormat: undefined
+stringValue: "\"{ id: [ '418fc60784d04e71beffe1ce5174c947' ] }\""
+kind: "string"
+value: {"id":["418fc60784d04e71beffe1ce5174c947"]}
+path: "cid"
+reason: null
+valueType: "Object"
+pid: 13457
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-06 15:57:20,595 ERROR 13457 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: [ '418fc60784d04e71beffe1ce5174c947' ] }" (type Object) at path "cid" for model "ShopList"
+    at model.Query.exec (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_mongoose@5.13.0@mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_mongoose@5.13.0@mongoose/lib/query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+messageFormat: undefined
+stringValue: "\"{ id: [ '418fc60784d04e71beffe1ce5174c947' ] }\""
+kind: "string"
+value: {"id":["418fc60784d04e71beffe1ce5174c947"]}
+path: "cid"
+reason: null
+valueType: "Object"
+pid: 13457
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-06 16:04:16,844 ERROR 13457 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{
+  id: [
+    '418fc60784d04e71beffe1ce5174c947',
+    '24afea564e5248b5a2bc59da95f09911'
+  ]
+}" (type Object) at path "cid" for model "ShopList"
+  id: [
+    '418fc60784d04e71beffe1ce5174c947',
+    '24afea564e5248b5a2bc59da95f09911'
+  ]
+}" (type Object) at path "cid" for model "ShopList"
+    at model.Query.exec (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_mongoose@5.13.0@mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_mongoose@5.13.0@mongoose/lib/query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+messageFormat: undefined
+stringValue: "\"{\n  id: [\n    '418fc60784d04e71beffe1ce5174c947',\n    '24afea564e5248b5a2bc59da95f09911'\n  ]\n}\""
+kind: "string"
+value: {"id":["418fc60784d04e71beffe1ce5174c947","24afea564e5248b5a2bc59da95f09911"]}
+path: "cid"
+reason: null
+valueType: "Object"
+pid: 13457
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-06 16:08:27,608 ERROR 13457 [-/127.0.0.1/-/2ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{
+  id: [
+    '418fc60784d04e71beffe1ce5174c947',
+    '24afea564e5248b5a2bc59da95f09911'
+  ]
+}" (type Object) at path "cid" for model "ShopList"
+  id: [
+    '418fc60784d04e71beffe1ce5174c947',
+    '24afea564e5248b5a2bc59da95f09911'
+  ]
+}" (type Object) at path "cid" for model "ShopList"
+    at model.Query.exec (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_mongoose@5.13.0@mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_mongoose@5.13.0@mongoose/lib/query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+messageFormat: undefined
+stringValue: "\"{\n  id: [\n    '418fc60784d04e71beffe1ce5174c947',\n    '24afea564e5248b5a2bc59da95f09911'\n  ]\n}\""
+kind: "string"
+value: {"id":["418fc60784d04e71beffe1ce5174c947","24afea564e5248b5a2bc59da95f09911"]}
+path: "cid"
+reason: null
+valueType: "Object"
+pid: 13457
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-06 16:28:16,095 ERROR 13457 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{
+  id: [
+    '418fc60784d04e71beffe1ce5174c947',
+    '24afea564e5248b5a2bc59da95f09911'
+  ]
+}" (type Object) at path "cid" for model "ShopList"
+  id: [
+    '418fc60784d04e71beffe1ce5174c947',
+    '24afea564e5248b5a2bc59da95f09911'
+  ]
+}" (type Object) at path "cid" for model "ShopList"
+    at model.Query.exec (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_mongoose@5.13.0@mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_mongoose@5.13.0@mongoose/lib/query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+messageFormat: undefined
+stringValue: "\"{\n  id: [\n    '418fc60784d04e71beffe1ce5174c947',\n    '24afea564e5248b5a2bc59da95f09911'\n  ]\n}\""
+kind: "string"
+value: {"id":["418fc60784d04e71beffe1ce5174c947","24afea564e5248b5a2bc59da95f09911"]}
+path: "cid"
+reason: null
+valueType: "Object"
+pid: 13457
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-06 16:29:12,132 ERROR 13457 [-/127.0.0.1/-/1ms POST /v1/deleteShop] nodejs.CastError: Cast to string failed for value "{ id: [ '60e3d6ef7668ac3491e3bd2c' ] }" (type Object) at path "cid" for model "ShopList"
+    at model.Query.exec (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_mongoose@5.13.0@mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_mongoose@5.13.0@mongoose/lib/query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+messageFormat: undefined
+stringValue: "\"{ id: [ '60e3d6ef7668ac3491e3bd2c' ] }\""
+kind: "string"
+value: {"id":["60e3d6ef7668ac3491e3bd2c"]}
+path: "cid"
+reason: null
+valueType: "Object"
+pid: 13457
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-06 18:42:23,180 ERROR 13457 [-/127.0.0.1/-/2ms POST /v1/addShop] nodejs.TypeError: Cannot read property 'present_price' of null
+    at OperatingGoodsController.addShop (/Users/Eric/Desktop/vue-phonemall/server/app/controller/api/operatingGoods.js:61:38)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/Eric/Desktop/vue-phonemall/server/app/middleware/isLogin.js:15:13
+    at async /Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-session@6.2.0@koa-session/index.js:41:7)
+    at async bodyParser (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at async /Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at async notfound (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg@2.29.4@egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg@2.29.4@egg/app/middleware/meta.js:17:5)
+
+pid: 13457
+hostname: zhanghongyindeMacBook-Pro.local
+

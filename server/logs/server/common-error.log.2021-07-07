@@ -1,0 +1,679 @@
+2021-07-07 00:41:44,005 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 575717ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 00:51:52,004 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 568087ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 01:02:00,004 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 567712ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 01:12:08,004 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 567224ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 01:22:18,004 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 568827ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 01:32:25,003 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 567442ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 01:42:34,003 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 567974ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 01:52:42,005 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 568068ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 02:02:50,004 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 567371ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 02:12:58,004 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 567588ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 02:23:07,005 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 567899ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 02:32:38,003 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 530945ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 02:42:13,879 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 575670ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 02:52:25,295 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 569725ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 03:02:39,333 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 572837ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 03:12:51,330 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 571819ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 03:23:05,343 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 573021ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 03:33:13,343 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 569701ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 03:43:28,319 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 571659ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 03:53:37,501 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 570234ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 04:03:50,338 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 570337ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 04:14:01,334 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 569763ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 04:24:13,328 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 571466ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 04:34:23,363 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 569582ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 04:44:35,337 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 571190ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 04:54:44,328 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 570615ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 05:04:57,330 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 571066ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 05:15:07,327 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 569609ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 05:25:18,340 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 569911ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 05:35:30,325 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 570658ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 05:45:42,342 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 571309ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 05:55:53,377 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 570483ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 06:06:04,348 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 569621ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 06:16:15,341 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 569853ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 06:26:26,344 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 570013ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 06:36:37,330 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 569751ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 06:46:48,343 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 570168ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 06:56:59,342 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 569927ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 07:07:11,341 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 571332ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 07:17:21,324 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 569615ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 07:27:32,332 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 570108ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 07:30:03,340 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 109897ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 07:39:27,151 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 562645ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 07:49:36,150 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 565666ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 08:22:41,150 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 1943152ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 08:29:42,005 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 380854ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 12:17:21,004 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 575837ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 12:27:15,006 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 572969ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 12:37:23,003 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 568446ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 12:47:27,003 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 565957ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 12:57:39,004 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 569188ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 13:04:38,007 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 378238ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 15:00:00,438 ERROR 13457 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (/Users/Eric/Desktop/vue-phonemall/server/app/controller/api/operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/Eric/Desktop/vue-phonemall/server/app/middleware/isLogin.js:15:13
+    at async /Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-session@6.2.0@koa-session/index.js:41:7)
+    at async bodyParser (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at async /Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at async notfound (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg@2.29.4@egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg@2.29.4@egg/app/middleware/meta.js:17:5)
+
+pid: 13457
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 15:00:12,887 ERROR 13457 [-/127.0.0.1/-/1ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (/Users/Eric/Desktop/vue-phonemall/server/app/controller/api/operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/Eric/Desktop/vue-phonemall/server/app/middleware/isLogin.js:15:13
+    at async /Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-session@6.2.0@koa-session/index.js:41:7)
+    at async bodyParser (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at async /Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at async notfound (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg@2.29.4@egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg@2.29.4@egg/app/middleware/meta.js:17:5)
+
+pid: 13457
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 15:00:53,962 ERROR 13457 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (/Users/Eric/Desktop/vue-phonemall/server/app/controller/api/operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/Eric/Desktop/vue-phonemall/server/app/middleware/isLogin.js:15:13
+    at async /Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-session@6.2.0@koa-session/index.js:41:7)
+    at async bodyParser (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at async /Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at async notfound (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg@2.29.4@egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg@2.29.4@egg/app/middleware/meta.js:17:5)
+
+pid: 13457
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 15:01:07,327 ERROR 13457 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (/Users/Eric/Desktop/vue-phonemall/server/app/controller/api/operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/Eric/Desktop/vue-phonemall/server/app/middleware/isLogin.js:15:13
+    at async /Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-session@6.2.0@koa-session/index.js:41:7)
+    at async bodyParser (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at async /Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at async notfound (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg@2.29.4@egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg@2.29.4@egg/app/middleware/meta.js:17:5)
+
+pid: 13457
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 15:01:58,092 ERROR 13457 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (/Users/Eric/Desktop/vue-phonemall/server/app/controller/api/operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/Eric/Desktop/vue-phonemall/server/app/middleware/isLogin.js:15:13
+    at async /Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-session@6.2.0@koa-session/index.js:41:7)
+    at async bodyParser (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at async /Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at async notfound (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg@2.29.4@egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg@2.29.4@egg/app/middleware/meta.js:17:5)
+
+pid: 13457
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 15:02:26,925 ERROR 13457 [-/127.0.0.1/-/1ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (/Users/Eric/Desktop/vue-phonemall/server/app/controller/api/operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/Eric/Desktop/vue-phonemall/server/app/middleware/isLogin.js:15:13
+    at async /Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-session@6.2.0@koa-session/index.js:41:7)
+    at async bodyParser (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at async /Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at async notfound (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg@2.29.4@egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg@2.29.4@egg/app/middleware/meta.js:17:5)
+
+pid: 13457
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 15:02:42,017 ERROR 13457 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (/Users/Eric/Desktop/vue-phonemall/server/app/controller/api/operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/Eric/Desktop/vue-phonemall/server/app/middleware/isLogin.js:15:13
+    at async /Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-session@6.2.0@koa-session/index.js:41:7)
+    at async bodyParser (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at async /Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at async notfound (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg@2.29.4@egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg@2.29.4@egg/app/middleware/meta.js:17:5)
+
+pid: 13457
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 15:03:52,496 ERROR 13457 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (/Users/Eric/Desktop/vue-phonemall/server/app/controller/api/operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/Eric/Desktop/vue-phonemall/server/app/middleware/isLogin.js:15:13
+    at async /Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-session@6.2.0@koa-session/index.js:41:7)
+    at async bodyParser (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at async /Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at async notfound (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg@2.29.4@egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg@2.29.4@egg/app/middleware/meta.js:17:5)
+
+pid: 13457
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 15:04:00,006 ERROR 13457 [-/127.0.0.1/-/3ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (/Users/Eric/Desktop/vue-phonemall/server/app/controller/api/operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/Eric/Desktop/vue-phonemall/server/app/middleware/isLogin.js:15:13
+    at async /Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-session@6.2.0@koa-session/index.js:41:7)
+    at async bodyParser (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at async /Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at async notfound (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg@2.29.4@egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg@2.29.4@egg/app/middleware/meta.js:17:5)
+
+pid: 13457
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 15:04:21,487 ERROR 13457 [-/127.0.0.1/-/1ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (/Users/Eric/Desktop/vue-phonemall/server/app/controller/api/operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/Eric/Desktop/vue-phonemall/server/app/middleware/isLogin.js:15:13
+    at async /Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-session@6.2.0@koa-session/index.js:41:7)
+    at async bodyParser (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at async /Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at async notfound (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg@2.29.4@egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg@2.29.4@egg/app/middleware/meta.js:17:5)
+
+pid: 13457
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 15:04:50,311 ERROR 13457 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (/Users/Eric/Desktop/vue-phonemall/server/app/controller/api/operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/Eric/Desktop/vue-phonemall/server/app/middleware/isLogin.js:15:13
+    at async /Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-session@6.2.0@koa-session/index.js:41:7)
+    at async bodyParser (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at async /Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at async notfound (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg@2.29.4@egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg@2.29.4@egg/app/middleware/meta.js:17:5)
+
+pid: 13457
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 15:04:50,607 ERROR 13457 [-/127.0.0.1/-/1ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (/Users/Eric/Desktop/vue-phonemall/server/app/controller/api/operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/Eric/Desktop/vue-phonemall/server/app/middleware/isLogin.js:15:13
+    at async /Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-session@6.2.0@koa-session/index.js:41:7)
+    at async bodyParser (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at async /Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at async notfound (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg@2.29.4@egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg@2.29.4@egg/app/middleware/meta.js:17:5)
+
+pid: 13457
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 15:04:50,887 ERROR 13457 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'count' of undefined
+    at OperatingGoodsController.order (/Users/Eric/Desktop/vue-phonemall/server/app/controller/api/operatingGoods.js:197:34)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async /Users/Eric/Desktop/vue-phonemall/server/app/middleware/isLogin.js:15:13
+    at async /Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-development@2.7.0@egg-development/app/middleware/egg_loader_trace.js:9:50
+    at async xframe (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xframe.js:7:5)
+    at async xssProtection (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/xssProtection.js:7:5)
+    at async nosniff (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/nosniff.js:8:5)
+    at async noopen (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-security@2.9.0@egg-security/lib/middlewares/noopen.js:8:5)
+    at async session (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-session@6.2.0@koa-session/index.js:41:7)
+    at async bodyParser (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-bodyparser@4.3.0@koa-bodyparser/index.js:95:5)
+    at async /Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-static-cache@5.1.4@koa-static-cache/index.js:39:63
+    at async notfound (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg@2.29.4@egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg@2.29.4@egg/app/middleware/meta.js:17:5)
+
+pid: 13457
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 19:42:17,004 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 2635287ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-07 22:46:21,016 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 11025575ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+

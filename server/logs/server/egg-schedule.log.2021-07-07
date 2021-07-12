@@ -1,0 +1,9 @@
+2021-07-07 04:34:23,395 INFO 13457 [Job#16256036633396766888814474985] /Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-multipart@2.12.0@egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2021-07-07 04:34:23,521 INFO 13457 [Job#16256036633396766888814474985] /Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-multipart@2.12.0@egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 107ms. 
+2021-07-07 04:34:23,360 INFO 13456 [Timer] /Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-multipart@2.12.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 86136651ms at 2021-07-08 04:30:00.011
+2021-07-08 00:00:23,485 INFO 13457 [Job#16256736234837466372161817766] /Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js executing by app
+2021-07-08 00:00:23,491 INFO 13457 [Job#16256736234837466372161817766] /Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js execute succeed, used 5ms. 
+2021-07-08 00:00:23,491 INFO 13456 [Timer] /Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 86376516ms at 2021-07-09 00:00:00.007
+2021-07-08 00:00:24,478 INFO 13457 [Job#16256736244777466382102500086] /Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2021-07-08 00:00:24,482 INFO 13457 [Job#16256736244777466382102500086] /Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 4ms. 
+2021-07-08 00:00:24,478 INFO 13456 [Timer] /Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 86376523ms at 2021-07-09 00:00:01.001

@@ -8,10 +8,8 @@
           v-for="(item, index) in category_list"
           :key="index"
           class="box1"
+          @click="retu(index)"
         />
-        <!-- <van-grid-item icon="photo-o" text="文字" />
-        <van-grid-item icon="photo-o" text="文字" />
-        <van-grid-item icon="photo-o" text="文字" /> -->
       </van-grid>
     </div>
   </div>
@@ -27,13 +25,25 @@ export default {
     },
   },
   data() {
-    return {};
+    return {
+      retu(index) {
+        console.log(index);
+        this.$router.push({
+          path: "/Goods",
+          query: {
+            activeKey: index,
+          },
+        });
+      },
+    };
   },
   components: {},
-  methods: {
-   
+  methods: {},
+  mounted() {
+    console.log(this.category_list);
+    this.$store.commit("getips", JSON.stringify(this.category_list));
+    localStorage.setItem("tips", JSON.stringify(this.category_list));
   },
-  mounted() {},
   computed: {},
   watch: {},
 };

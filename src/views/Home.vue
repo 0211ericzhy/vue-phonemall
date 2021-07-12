@@ -1,53 +1,62 @@
 <template>
   <div>
     <!-- 头部 -->
-    <child>
-      <template #left>
-        <div @click="locted(loct)">
-          {{ citys }}<van-icon name="arrow-down" class="i" />
+    <van-pull-refresh v-model="isLoading" @refresh="onRefresh">
+      <child>
+        <template #left>
+          <div @click="locted(loct)">
+            {{ citys }}<van-icon name="arrow-down" class="i" />
+          </div>
+        </template>
+        <!-- <template #right> 搜索 </template> -->
+        <!-- 输入框 -->
+        <template #center>
+          <div class="head_ipt">
+            <van-search
+              v-model="value"
+              placeholder="请输入搜索关键词"
+              background="#f2f2f2"
+            />
+          </div>
+        </template>
+      </child>
+      <div v-if="flag === true">
+        <!-- 轮播图 -->
+        <carouselmap v-if="slides" :slides="slides"></carouselmap>
+        <!-- 类别 -->
+        <category
+          v-if="category_list"
+          :category_list="category_list"
+        ></category>
+        <!-- 公告 -->
+        <div class="biliborad">
+          <div class="font">内测期间 仅对公司内部配送</div>
+          <div><img src="../assets/loading.gif" alt="" /></div>
         </div>
-      </template>
-      <!-- <template #right> 搜索 </template> -->
-      <!-- 输入框 -->
-      <template #center>
-        <div class="head_ipt">
-          <van-search
-            v-model="value"
-            placeholder="请输入搜索关键词"
-            background="#f2f2f2"
-          />
-        </div>
-      </template>
-    </child>
-    <div v-if="flag === true">
-      <!-- 轮播图 -->
-      <carouselmap v-if="slides" :slides="slides"></carouselmap>
-      <!-- 类别 -->
-      <category v-if="category_list" :category_list="category_list"></category>
-      <!-- 公告 -->
-      <div class="biliborad">
-        <div class="font">内测期间 仅对公司内部配送</div>
-        <div><img src="../assets/loading.gif" alt="" /></div>
+        <!-- 热门推荐 -->
+        <recom v-if="recom_list" :recom_list="recom_list"></recom>
+        <!-- floor1 -->
+        <floor v-if="Floor1" :Floor1="Floor1" :Floor_name="Floor_name"></floor>
+        <!-- floor2 -->
+        <floor v-if="Floor2" :Floor1="Floor2" :Floor_name="Floor2_name"></floor>
+        <!-- floor3 -->
+        <floor v-if="Floor3" :Floor1="Floor3" :Floor_name="Floor3_name"></floor>
+        <!-- 热门商品 -->
+        <hotgoods v-if="hot_list" :hot_list="hot_list"></hotgoods>
       </div>
-      <!-- 热门推荐 -->
-      <recom v-if="recom_list" :recom_list="recom_list"></recom>
-      <!-- floor1 -->
-      <floor v-if="Floor1" :Floor1="Floor1" :Floor_name="Floor_name"></floor>
-      <!-- floor2 -->
-      <floor v-if="Floor2" :Floor1="Floor2" :Floor_name="Floor2_name"></floor>
-      <!-- floor3 -->
-      <floor v-if="Floor3" :Floor1="Floor3" :Floor_name="Floor3_name"></floor>
-      <!-- 热门商品 -->
-      <hotgoods v-if="hot_list" :hot_list="hot_list"></hotgoods>
-    </div>
-    <div v-if="flag === false">
-      <div class="goods">
-        <div v-for="(item, index) in values" :key="index">
-          <div class="title" v-html="item.name" @click="detail(item.id)"></div>
+      <div v-if="flag === false">
+        <div class="goods">
+          <div v-for="(item, index) in values" :key="index">
+            <div
+              class="title"
+              v-html="item.name"
+              @click="detail(item.id)"
+            ></div>
+          </div>
         </div>
       </div>
-    </div>
-    <layout></layout>
+      <layout></layout>
+    </van-pull-refresh>
   </div>
 </template>
 
@@ -80,6 +89,7 @@ export default {
       hot_list: null,
       flag: true,
       ids: "",
+      isLoading: false,
     };
   },
   components: { Layout, Child, Carouselmap, Category, Recom, Floor, Hotgoods },
@@ -107,6 +117,12 @@ export default {
     detail(id) {
       this.$router.push({ path: "/Details", query: { ids: id } });
     },
+    onRefresh() {
+      setTimeout(() => {
+        Toast("刷新成功");
+        this.isLoading = true;
+      }, 1000);
+    },
   },
   mounted() {
     // 首页数据
@@ -131,6 +147,7 @@ export default {
         this.Floor2_name = res.data.floorName.floor2;
         // floor 3
         this.Floor3 = res.data.floor3;
+        console.log(this.Floor3);
         this.Floor3_name = res.data.floorName.floor3;
         // 热门商品
         this.hot_list = res.data.hotGoods;

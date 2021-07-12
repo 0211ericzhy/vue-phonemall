@@ -1,0 +1,57 @@
+2021-07-10 01:00:26,216 INFO 13456 [egg-logrotator] agent logger reload: got log-reload message
+2021-07-10 01:10:01,252 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 574381ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-10 01:20:02,414 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 581059ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-10 05:37:49,381 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 15447609ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-10 07:15:03,624 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 5833547ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-10 15:15:09,007 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 28805353ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-10 15:30:10,006 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 899818ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-11 08:36:12,924 ERROR 13456 nodejs.ClusterClientNoResponseError: client no response in 61561074ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:555:17)
+    at processTimers (internal/timers.js:498:7)
+name: "ClusterClientNoResponseError"
+pid: 13456
+hostname: zhanghongyindeMacBook-Pro.local
+

@@ -1,0 +1,44 @@
+2021-07-11 16:26:04,680 ERROR 13457 [-/127.0.0.1/-/6ms POST /v1/goodsOne/comment] nodejs.ValidationError: Comment validation failed: anonymous: Cast to Boolean failed for value "" (type string) at path "anonymous"
+    at model.Document.invalidate (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_mongoose@5.13.0@mongoose/lib/document.js:2757:32)
+    at model.$set (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_mongoose@5.13.0@mongoose/lib/document.js:1324:12)
+    at model.$set (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_mongoose@5.13.0@mongoose/lib/document.js:1033:16)
+    at model.Document (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_mongoose@5.13.0@mongoose/lib/document.js:148:12)
+    at model.Model (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_mongoose@5.13.0@mongoose/lib/model.js:105:12)
+    at new model (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_mongoose@5.13.0@mongoose/lib/model.js:4902:15)
+    at OperatingGoodsController.comment (/Users/Eric/Desktop/vue-phonemall/server/app/controller/api/operatingGoods.js:262:25)
+    at Object.callFn (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/Eric/Desktop/vue-phonemall/server/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+errors: {"anonymous":{"stringValue":"\"\"","valueType":"string","kind":"Boolean","value":"","path":"anonymous","reason":{"stringValue":"\"\"","valueType":"string","kind":"boolean","value":"","name":"CastError","message":"Cast to boolean failed for value \"\" (type string) at path \"undefined\""},"name":"CastError","message":"Cast to Boolean failed for value \"\" (type string) at path \"anonymous\""}}
+_message: "Comment validation failed"
+pid: 13457
+hostname: zhanghongyindeMacBook-Pro.local
+
+2021-07-11 16:26:07,138 ERROR 13457 [-/127.0.0.1/-/2ms POST /v1/goodsOne/comment] nodejs.ValidationError: Comment validation failed: anonymous: Cast to Boolean failed for value "" (type string) at path "anonymous"
+    at model.Document.invalidate (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_mongoose@5.13.0@mongoose/lib/document.js:2757:32)
+    at model.$set (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_mongoose@5.13.0@mongoose/lib/document.js:1324:12)
+    at model.$set (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_mongoose@5.13.0@mongoose/lib/document.js:1033:16)
+    at model.Document (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_mongoose@5.13.0@mongoose/lib/document.js:148:12)
+    at model.Model (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_mongoose@5.13.0@mongoose/lib/model.js:105:12)
+    at new model (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_mongoose@5.13.0@mongoose/lib/model.js:4902:15)
+    at OperatingGoodsController.comment (/Users/Eric/Desktop/vue-phonemall/server/app/controller/api/operatingGoods.js:262:25)
+    at Object.callFn (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-core@4.20.0@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_egg-core@4.20.0@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/Eric/Desktop/vue-phonemall/server/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/Eric/Desktop/vue-phonemall/server/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+errors: {"anonymous":{"stringValue":"\"\"","valueType":"string","kind":"Boolean","value":"","path":"anonymous","reason":{"stringValue":"\"\"","valueType":"string","kind":"boolean","value":"","name":"CastError","message":"Cast to boolean failed for value \"\" (type string) at path \"undefined\""},"name":"CastError","message":"Cast to Boolean failed for value \"\" (type string) at path \"anonymous\""}}
+_message: "Comment validation failed"
+pid: 13457
+hostname: zhanghongyindeMacBook-Pro.local
+

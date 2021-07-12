@@ -89,8 +89,13 @@ export default {
           console.log(res);
           if (res.code === 200) {
             Notify({ type: "success", message: "登陆成功" });
-            localStorage.setItem("user", JSON.stringify(res.data));
-            this.$router.back("");
+              // 储存到vuex
+            console.log(111);
+            // console.log(JSON.stringify(res.userInfo));
+            // localStorage.setItem('bjj','090')
+            this.$store.commit("getuser", JSON.stringify(res.userInfo));
+            localStorage.setItem("user", JSON.stringify(res.userInfo));
+            this.$router.push('/')
           } else {
             Notify({ type: "danger", message: res.msg });
           }
@@ -108,16 +113,14 @@ export default {
         })
         .then((res) => {
           console.log(res);
-          if (res.code === 200) {
+          if (res.code=== 200) {
             Notify({ type: "success", message: "注册成功" });
-            // this.
-            // localStorage.setItem("user", JSON.stringify(res));
             // 储存到vuex
-            console.log(res);
-            localStorage.setItem("user", this.username);
-            this.$store.commit("getuser", this.username);
-
-            this.$router.back("");
+            console.log(111);
+            console.log(JSON.stringify(res.userInfo));
+            this.$store.commit("getuser", JSON.stringify(res.userInfo));
+            localStorage.setItem("user", JSON.stringify(res.userInfo));
+            this.$router.push('/')
           } else {
             Notify({ type: "danger", message: res.msg });
           }

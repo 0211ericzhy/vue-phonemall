@@ -2,7 +2,7 @@
   <div>
     <div class="recom">
       <div class="head">商品推荐</div>
-      <div class="bodys ">
+      <div class="bodys">
         <div v-for="(item, index) in recom_list" :key="index" class="box1">
           <div class="recom_img">
             <img :src="item.image" alt="" />
@@ -13,7 +13,9 @@
             ><span class="last">${{ item.price }}</span>
           </div>
           <div class="recom_buy">
-            <div class="shop"><van-icon name="cart-o" /></div>
+            <div class="shop" @click="checkLoggin(item.goodsId)">
+              <van-icon name="cart-o" />
+            </div>
             <div class="detiles" @click="details(item.goodsId)">查看详情</div>
           </div>
         </div>
@@ -35,19 +37,51 @@ export default {
   data() {
     return {
       data: [],
-      ids:''
+      ids: "",
     };
   },
   components: {},
   methods: {
-    details(id){
-        this.$router.push({ path: "/Details", query: { ids: id } });
-    }
+    details(id) {
+      this.$router.push({ path: "/Details", query: { ids: id } });
+    },
+    // 加入购物车
+    addcar(id) {
+      this.$api
+        .addShop({ id })
+        .then((res) => {
+          console.log(res);
+          if (res.code === 200) {
+            this.$toast("添加成功");
+            // 实时更新
+            this.$api.getCard().then((res) => {
+              // console.log(res);
+              this.$store.commit("getcarlength", res.shopList.length);
+              localStorage.setItem("carlen", res.shopList.length);
+            });
+          } else {
+            this.$toast("添加失败");
+          }
+        })
+        .catch((err) => {
+          console.log("请求失败", err);
+        });
+    },
+    // 封装的方法去判断用户是否登陆
+    checkLoggin(id) {
+      this.$utils.checkLoggin({ key: this.user, next: this.addcar, item: id });
+      // key 存在本地的用户名的名字  next 存在用户情况下进入的下步操作  item加入购物车的id传给addcar
+    },
   },
   mounted() {
     // console.log(this.recom_list);
+    // console.log(this.user);
   },
-  computed: {},
+  computed: {
+    user() {
+      return this.$store.state.user1;
+    },
+  },
   watch: {},
 };
 </script>
@@ -100,6 +134,8 @@ export default {
       width: 135px;
       display: flex;
       .shop {
+        text-align: center;
+        line-height: 20px;
         width: 35px;
         background-color: #fdc94a;
         color: #fff;
