@@ -38,6 +38,7 @@ export default {
       cid: [],
       // 详情页跳转
       goods: null,
+      // defaultAdd:null
     };
   },
   components: { Child, Fistaddress, OderGoods },
@@ -98,7 +99,7 @@ export default {
     console.log(11);
     console.log(this.cid);
     // 从管理地址调转过来
-    // let defaultAddd=this.$route.query.defaultAdd
+    // this.defaultAddd=this.$route.query.defaultAdd
     // if(defaultAddd!==null){
     //   his.dete=defaultAddd
     // }

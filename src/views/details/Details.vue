@@ -53,7 +53,9 @@
         <div class="details_all">
           <van-tabs v-model="active">
             <van-tab title="商品详情">
+              <div style="font-size:0">
               <div v-html="goods.detail"></div>
+              </div>
             </van-tab>
             <van-tab title="商品评论">
               <div class="comm" v-for="(item, index) in goodsone" :key="index">
@@ -62,7 +64,6 @@
                     v-for="(item1, index2) in item.user"
                     :key="index2"
                     class="comm2"
-                    
                   >
                     <div class="user-img">
                       <img :src="item1.avatar" />
@@ -266,7 +267,7 @@ export default {
       this.showShare = true;
     },
     checkLoggin1() {
-      this.$utils.checkLoggin({ key: this.username, next: this.addcar });
+      this.$utils.checkLoggin({ key: this.username, next: this.buynow });
     },
     // 立即购买
     buynow() {
@@ -307,16 +308,29 @@ export default {
         this.nums++;
       }
     },
-    // 商品评论
   },
   mounted() {
     this.ids = this.$route.query.ids;
+    // 获取商品信息
     this.$api
       .goodOne({ id: this.ids })
       .then((res) => {
-        // console.log(res);
+        // 商品信息
         this.goods = res.goods.goodsOne;
-        // console.log(this.goods);
+        // 判断是否有数据
+        if(!res.goods.goodsOne){
+           this.$toast('产品下架');
+           this.$router.push('/')
+        }
+        if (this.username) {
+          this.$utils.saveHistory({
+            key: `${this.username.username}browse`,
+            data: this.goods,
+            attr: "id",
+          });
+        }
+
+        console.log(this.goods);
         this.images.push(this.goods.image);
       })
       .catch((err) => {
@@ -337,13 +351,13 @@ export default {
       .catch((err) => {
         "请求失败", err;
       });
-    console.log(this.username);
+    // console.log(this.username);
     // 商品评论
     this.$api
       .goodOne({ id: this.ids })
       .then((res) => {
         this.goodsone = res.goods.comment;
-        console.log(this.goodsone);
+        // console.log(this.goodsone);
         // console.log(res);
       })
       .catch((err) => {

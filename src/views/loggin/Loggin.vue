@@ -20,6 +20,7 @@
               name="密码"
               label="密码"
               placeholder="密码"
+                type="password"
               :rules="[{ required: true, message: '请填写密码' }]"
             />
             <van-field
@@ -43,7 +44,7 @@
                 placeholder="验证码"
                 :rules="[{ required: true, message: '请输入验证码' }]"
               />
-              <div v-html="this.msg"></div>
+              <div v-html="this.msg" @click="change"></div>
             </div>
           </van-form>
           <!-- 登陆注册 -->
@@ -89,13 +90,13 @@ export default {
           console.log(res);
           if (res.code === 200) {
             Notify({ type: "success", message: "登陆成功" });
-              // 储存到vuex
+            // 储存到vuex
             console.log(111);
             // console.log(JSON.stringify(res.userInfo));
             // localStorage.setItem('bjj','090')
             this.$store.commit("getuser", JSON.stringify(res.userInfo));
             localStorage.setItem("user", JSON.stringify(res.userInfo));
-            this.$router.push('/')
+            this.$router.push("/");
           } else {
             Notify({ type: "danger", message: res.msg });
           }
@@ -113,17 +114,29 @@ export default {
         })
         .then((res) => {
           console.log(res);
-          if (res.code=== 200) {
+          if (res.code === 200) {
             Notify({ type: "success", message: "注册成功" });
             // 储存到vuex
             console.log(111);
             console.log(JSON.stringify(res.userInfo));
             this.$store.commit("getuser", JSON.stringify(res.userInfo));
             localStorage.setItem("user", JSON.stringify(res.userInfo));
-            this.$router.push('/')
+            this.$router.push("/");
           } else {
             Notify({ type: "danger", message: res.msg });
           }
+        })
+        .catch((err) => {
+          console.log(err);
+        });
+    },
+    change() {
+      this.$api
+        .verify()
+        .then((res) => {
+          // console.log(res);
+
+          this.msg = res;
         })
         .catch((err) => {
           console.log(err);

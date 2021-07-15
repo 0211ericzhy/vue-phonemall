@@ -188,16 +188,13 @@ export default {
         return http.get(`/myOrder`)
     },
     // 查询已评价(get)
-    alreadyEvaluated(page = 1) {
-        return http.get('/alreadyEvaluated', {
-            params: { page }
-        })
+    alreadyEvaluated(page) {
+        return http.get(`/alreadyEvaluated?page=${page}`
+        )
     },
     //  查询未评价(get)
-    tobeEvaluated(page = 1) {
-        return http.get('/tobeEvaluated', {
-            params: { page }
-        })
+    tobeEvaluated(page) {
+        return http.get(`/tobeEvaluated?page=${page}`)
     },
     //  查询单条评论(post)
     evaluateOne(id, _id) {

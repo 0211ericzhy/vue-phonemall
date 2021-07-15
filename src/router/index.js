@@ -45,24 +45,6 @@ const routes = [
       title: '购物车',
     }
   },
-  // 未登陆购物车
-  {
-    path: '/Unshoppingcar',
-    name: 'Unshoppingcar',
-    component: () => import('../views/unshoppingcar/Unshoppingcar.vue'),
-    meta: {
-      title: '购物车',
-    }
-  },
-  // 无货物购物车
-  {
-    path: '/Noshoppingcar',
-    name: 'Noshoppingcar',
-    component: () => import('../views/noshopingcar/Noshoppingcar.vue'),
-    meta: {
-      title: '购物车',
-    }
-  },
   {
     path: '/Settlement',
     name: 'Settlement',
@@ -203,6 +185,33 @@ const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
   routes
+})
+
+router.beforeEach((to, from, next) => {
+  // 为了赋值标题
+  document.title = to.meta.title
+  next()
+  switch (to.path) {
+    case '/Editaddress':
+    case '/RecentBrowsing':
+    case '/Collection':
+    case '/AllOrders':
+    case '/EvaluationPic':
+    case '/EvaluationCenter':
+    case '/Addaddress':
+    case '/Orderaddress':
+    case '/Settlement':
+      let user = localStorage.getItem('user')
+      if (!user) {
+        next('/')
+      }else{
+        next()
+      }
+      break;
+      default:next()
+      break
+  }
+  
 })
 
 export default router

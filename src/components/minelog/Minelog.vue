@@ -1,11 +1,11 @@
 <template>
   <div>
     <div class="box">
-      <div v-if="this.username">
+      <div v-if="username">
         <div class="logimg">
-          <img :src="Userinformation.avatar" alt="" />
+          <img :src="username.avatar" alt="" />
         </div>
-        <div class="logwelcom">欢迎您:{{ Userinformation.nickname }}</div>
+        <div class="logwelcom">欢迎您:{{ username.nickname }}</div>
         <div class="out" @click="outlogging">退出登陆</div>
         <div class="icon" @click="setting"><van-icon name="setting" /></div>
       </div>
@@ -40,11 +40,14 @@ export default {
         .loginOut()
         .then((res) => {
           console.log(res);
-          this.$dialog.alert({
-            message: "退出成功",
-          });
-          localStorage.clear();
-          this.$router.push('/')
+          if (res.code === 0) {
+            localStorage.removeItem("user");
+            this.$store.commit("getuser", null);
+            this.$toast("退出成功");
+            this.$router.push("/");
+          }else{
+            this.$toast(res.msg);
+          }
         })
         .catch((err) => {
           "请求失败", err;
@@ -56,7 +59,7 @@ export default {
       .user()
       .then((res) => {
         this.Userinformation = res.userInfo;
-        console.log(this.Userinformation);
+        // console.log(this.Userinformation);
       })
       .catch((err) => {
         console.log(err);
@@ -64,7 +67,8 @@ export default {
   },
   computed: {
     username() {
-      return this.$store.state.user1;
+      // console.log(this.$store.state.user1);
+      return JSON.parse(this.$store.state.user1);
     },
   },
   watch: {},

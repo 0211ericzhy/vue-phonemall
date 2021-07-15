@@ -12,6 +12,8 @@ import utils from './utils';
 import 'vant/lib/index.css';
 // 把api挂载成全局变量
 import api from './http/api';
+import lodding from './components/lodding/Lodding.vue'
+Vue.component('lodding',lodding)
 Vue.prototype.$api=api
 Vue.prototype.$utils=utils
 Vue.use(Vant);

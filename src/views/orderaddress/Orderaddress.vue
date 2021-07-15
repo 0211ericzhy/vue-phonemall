@@ -50,12 +50,10 @@ export default {
       this.$router.push("/Addaddress");
     },
     // 选择地址
-    select(index){
-      console.log(index);
-      this.$router.push({path:'Settlement',query:{
-        defaultAdd:index
-      }})
-    }
+    // select(index){
+    //   console.log(index);
+    //   this.$router.push({path})
+    // }
   },
   mounted() {
     // 总地址

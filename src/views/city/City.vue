@@ -92,7 +92,7 @@ export default {
     // console.log(this.spll);
     // this.all_c = Object.values(this.all_citys);
     // console.log(this.all_c);
-    console.log(citys());
+    console.log(this.citys);
   },
   computed: {
     citys(){

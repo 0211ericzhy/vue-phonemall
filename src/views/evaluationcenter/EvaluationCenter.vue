@@ -17,34 +17,53 @@
       <!-- 选择 -->
       <van-tabs @click="onClick" v-model="active">
         <van-tab title=" 待评价">
-          <div v-for="(item, index) in list" :key="index" class="wite">
-            <div class="wit_img">
-              <img :src="item.image_path" alt="" />
-            </div>
-            <div>
-              <!-- 标题 -->
-              <div class="tit">{{ item.name }}</div>
-              <!-- 评价 -->
-              <div class="btn_cont">
-                <button @click="gotopic(item)">评论晒图</button>
+          <van-pull-refresh v-model="refreshing"  disabled>
+            <van-list
+              v-model="loading"
+              :finished="finished"
+              finished-text="没有更多了"
+              @load="onLoad"
+             
+            >
+              <div v-for="(item, index) in list" :key="index" class="wite">
+                <div class="wit_img">
+                  <img :src="item.image_path" alt="" />
+                </div>
+                <div>
+                  <!-- 标题 -->
+                  <div class="tit">{{ item.name }}</div>
+                  <!-- 评价 -->
+                  <div class="btn_cont">
+                    <button @click="gotopic(item)">评论晒图</button>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
+            </van-list>
+          </van-pull-refresh>
         </van-tab>
         <van-tab title="以评价">
-          <div v-for="(item, index) in listed" :key="index" class="wite">
-            <div class="wit_img">
-              <img :src="item.goods[0].image_path" alt="" />
-            </div>
-            <div>
-              <!-- 标题 -->
-              <div class="tit">{{ item.goods[0].name }}</div>
-              <!-- 评价 -->
-              <div class="btn_cont">
-                <button @click="gotopicd(item)">查看详情</button>
+          <van-pull-refresh v-model="refreshing" disabled>
+            <van-list
+              v-model="loading"
+              :finished="finished"
+              finished-text="没有更多了"
+              @load="onLoad1"
+            >
+              <div v-for="(item, index) in listed" :key="index" class="wite">
+                <div class="wit_img">
+                  <img :src="item.goods[0].image_path" alt="" />
+                </div>
+                <div>
+                  <!-- 标题 -->
+                  <div class="tit">{{ item.goods[0].name }}</div>
+                  <!-- 评价 -->
+                  <div class="btn_cont">
+                    <button @click="gotopicd(item)">查看详情</button>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
+            </van-list>
+          </van-pull-refresh>
         </van-tab>
       </van-tabs>
     </div>
@@ -60,7 +79,14 @@ export default {
     return {
       list: [],
       active: "",
-      listed:[]
+      listed: [],
+      loading: false,
+      finished: false,
+      refreshing: false,
+      num: 0,
+      page: 1,
+      page1: 1,
+      num1: 0,
     };
   },
   components: { Child },
@@ -100,19 +126,69 @@ export default {
         query: { item: JSON.stringify(item) },
       });
     },
-    gotopicd(item){
+    gotopicd(item) {
       this.$router.push({
-        path:'EvaluationDetails',
-        query:{item:JSON.stringify(item)}
-      })
-    }
+        path: "EvaluationDetails",
+        query: { item: JSON.stringify(item) },
+      });
+    },
+    onLoad() {
+      setTimeout(() => {
+        if (this.refreshing) {
+          this.list = [];
+          this.refreshing = false;
+        }
+        this.loading = false;
+        this.page++;
+        this.$api
+          .tobeEvaluated(this.page)
+          .then((res) => {
+            // console.log(res);
+
+            this.list = this.list.concat(res.data.list);
+            this.num = res.data.count;
+            console.log(this.list);
+          })
+          .catch((err) => {
+            console.log("请求失败");
+          });
+        if (this.list.length >= this.num) {
+          this.finished = true;
+        }
+      }, 1000);
+    },
+    onLoad1() {
+      setTimeout(() => {
+        if (this.refreshing) {
+          this.listed = [];
+          this.refreshing = false;
+        }
+        this.loading = false;
+        this.page1++;
+        this.$api
+          .alreadyEvaluated()
+          .then((res) => {
+            // console.log(res);
+            this.listed = res.data.list;
+            console.log(this.listed);
+          })
+          .catch((err) => {
+            console.log("请求失败");
+          });
+        if (this.listed.length >= this.num1) {
+          this.finished = true;
+        }
+      }, 1000);
+    },
   },
   mounted() {
     this.$api
-      .tobeEvaluated()
+      .tobeEvaluated(this.page)
       .then((res) => {
         // console.log(res);
-        this.list = res.data.list;
+
+        this.list = this.list.concat(res.data.list);
+        this.num = res.data.count;
         console.log(this.list);
       })
       .catch((err) => {

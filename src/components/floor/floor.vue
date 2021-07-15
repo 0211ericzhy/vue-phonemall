@@ -10,21 +10,41 @@
       <div class="bodys">
         <div class="head_left">
           <div class="big_left">
-            <img :src="Floor1[0].image" alt="" @click="details(Floor1[0].goodsId)" />
+            <img
+              :src="Floor1[0].image"
+              alt=""
+              @click="details(Floor1[0].goodsId)"
+            />
           </div>
           <div class="bot">
-            <img :src="Floor1[4].image" alt="" @click="details(Floor1[4].goodsId)"  />
+            <img
+              :src="Floor1[4].image"
+              alt=""
+              @click="details(Floor1[4].goodsId )"
+            />
           </div>
         </div>
         <div class="head_right">
-          <div class="fist">
-            <img :src="Floor1[1].image" alt="" @click="details(Floor1[1].goodsId)"  />
+          <div class="fist" >
+            <img
+              :src="Floor1[1].image"
+              alt=""
+              @click="details(Floor1[1].goodsId)"
+            />
           </div>
           <div class="sec">
-            <img :src="Floor1[2].image" alt="" @click="details(Floor1[2].goodsId)"  />
+            <img
+              :src="Floor1[2].image"
+              alt=""
+              @click="details(Floor1[2].goodsId)"
+            />
           </div>
           <div class="last">
-            <img :src="Floor1[3].image" alt=""  @click="details(Floor1[3].goodsId)" />
+            <img
+              :src="Floor1[3].image"
+              alt=""
+              @click="details(Floor1[3].goodsId)"
+            />
           </div>
         </div>
       </div>
@@ -47,7 +67,7 @@ export default {
   },
   data() {
     return {
-      ids:''
+      ids: "",
     };
   },
   components: {},

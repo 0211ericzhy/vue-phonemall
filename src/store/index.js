@@ -17,8 +17,8 @@ export default new Vuex.Store({
       state.city = city1
     },
     // 登陆
-    getuser(state, user1) {
-      state.user = user1
+    getuser(state, user) {
+      state.user1 = user
     },
     // 购物车长度
     getcarlength(state, carlen2) {

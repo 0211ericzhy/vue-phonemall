@@ -18,34 +18,19 @@
       @change="change"
       v-model="active"
     >
-      <van-tabbar-item replace to="/" icon="home-o" active='1'>首页</van-tabbar-item>
-      <van-tabbar-item replace to="/Goods" icon="search" active='2'>分类</van-tabbar-item>
-      <div v-if="falg === 0" class="boxbox">
-        <van-tabbar-item replace to="/Unshoppingcar" icon="cart-o" active='3'
-          >购物车
-          <van-badge :content="usercar" class="box22">
-            <div class="child" />
-          </van-badge>
-        </van-tabbar-item>
-      </div>
-      <div v-else-if="falg === 1" class="boxbox">
-        <van-tabbar-item replace to="/Noshoppingcar" icon="cart-o" active='4'
-          >购物车
-          <van-badge :content="usercar" class="box22">
-            <div class="child" />
-          </van-badge>
-        </van-tabbar-item>
-      </div>
-      <div v-else class="boxbox">
-        <van-tabbar-item replace to="/shoppingcar" icon="cart-o" active='5'
-          >购物车
-          <van-badge :content="usercar" class="box22">
-            <div class="child" />
-          </van-badge>
-        </van-tabbar-item>
-      </div>
-
-      <van-tabbar-item replace to="/Mine" icon="friends-o" active='6'
+      <van-tabbar-item replace to="/" icon="home-o" active="1"
+        >首页</van-tabbar-item
+      >
+      <van-tabbar-item replace to="/Goods" icon="search" active="2"
+        >分类</van-tabbar-item
+      >
+      <van-tabbar-item replace to="/shoppingcar" icon="cart-o" active="5"
+        >购物车
+        <van-badge :content="usercar" class="box22">
+          <div class="child" />
+        </van-badge>
+      </van-tabbar-item>
+      <van-tabbar-item replace to="/Mine" icon="friends-o" active="6"
         >我的</van-tabbar-item
       >
     </van-tabbar>
@@ -62,37 +47,36 @@ export default {
       fromto: "",
       user: "",
       content: "",
-      // 购物车判断
-      falg: 0,
     };
   },
   components: {},
   methods: {
     change() {
-      console.log(this.usercar);
+      // console.log(this.usercar);
     },
   },
   mounted() {
-    this.change();
     if (this.username) {
-      if (Number(this.usercar) === 0) {
-        // this.fromto = "/Noshoppingcar";
-        this.falg = 1;
-      } else {
-        // this.fromto = "/shoppingcar";
-        this.falg = 2;
-      }
-    } else {
-      this.falg = 0;
-      // this.fromto = "/Unshoppingcar";
+      this.$api
+        .getCard()
+        .then((res) => {
+          // console.log(res);
+          this.$store.commit("getcarlength", res.shopList.length);
+          localStorage.setItem("carlen", res.shopList.length);
+        })
+        .catch((err) => {
+          console.log("请求失败", err);
+        });
     }
   },
   computed: {
     // 购物车长度
     usercar() {
+      // console.log(this.$store.state.carlenghth);
       return this.$store.state.carlenghth;
     },
     username() {
+      // console.log(this.$store.state.user1);
       return this.$store.state.user1;
     },
   },
@@ -106,7 +90,7 @@ export default {
   top: 1.6vw;
   right: 44.6vw;
 }
-.boxbox{
+.boxbox {
   width: 109px;
   margin-top: 6px;
 }

@@ -8,11 +8,11 @@
     <!-- 用户信息，评分，时间 -->
     <div class="head">
       <div class="use-img">
-        <img :src="user.avatar" alt="" />
+        <img :src="user1.avatar" alt="" />
       </div>
       <!-- 用户名和评分 -->
       <div class="user">
-        <div class="username">{{ user.nickname }}</div>
+        <div class="username">{{ user1.nickname }}</div>
         <div class="rate"><van-rate v-model="list.rate" /></div>
       </div>
       <!-- 创建时间 -->
@@ -45,10 +45,12 @@ export default {
   props: {},
   data() {
     return {
-      list: [],
+      list: '',
       value: 0,
       text: "",
       radio: "",
+      user1: {},
+      id:{}
     };
   },
   components: { Child },
@@ -57,8 +59,15 @@ export default {
       this.$router.back();
     },
     done() {
+      console.log(this.list);
+      // let id ={}
+      //  id = this.list.goods.map((item) => {
+      //   return item.id;
+      // });
+      this.id =this.list.goods[0].id
+      console.log(this.id);
       this.$api
-        .addShop({ id: this.list.goods[0].id })
+        .addShop({ id: this.id})
         .then((res) => {
           console.log(res);
           // Dialog({ message: "购物车加入成功" });
@@ -81,21 +90,24 @@ export default {
   },
   mounted() {
     // 评论详情数据
-    this.list = JSON.parse(this.$route.query.item);
+    let listed =this.$route.query.item
+    this.list = JSON.parse(listed);
     console.log(this.list);
     // 用户信息
     console.log(this.user);
+    this.user1 = JSON.parse(this.user);
+    console.log(this.user1);
   },
   computed: {
     // 用户信息
     user() {
-      return JSON.parse(this.$store.state.user1);
+      return this.$store.state.user1;
     },
   },
   watch: {
-    radio2(val){
+    radio2(val) {
       console.log(val);
-    }
+    },
   },
 };
 </script>

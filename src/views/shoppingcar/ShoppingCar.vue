@@ -1,53 +1,68 @@
 <template>
   <div>
-    <div>
-      <!-- 头部 -->
-      <div class="head">购物车</div>
-      <!-- 全选部分 -->
-      <div class="two">
-        <div class="box2">
-          <input type="checkbox" v-model="checkall" @change="changedall" />
-          <div v-if="flag">全选</div>
-          <div v-else>取消全选</div>
-        </div>
-        <div class="box1">
-          <div>合计:${{ Number(numbe).toFixed(2) }}</div>
-          <div>请确认订单</div>
-        </div>
+    <div v-if="username">
+      <div v-if="list.length === 0">
+        <div class="goshopping" @click="goshopping">去购物吧</div>
       </div>
-      <!-- 删除订单 去结算 -->
-      <div class="three">
-        <div @click="deleteShop">删除</div>
-        <div @click="tomoney">去结算</div>
-      </div>
-      <!-- 货物 -->
-      <div class="goods" v-for="(item, index) in list" :key="index">
+      <div v-else>
         <div>
-          <input
-            type="checkbox"
-            class="checs"
-            v-model="item.check"
-            @change="changed"
-          />
-        </div>
-        <div class="goods_img">
-          <img :src="item.image_path" alt="" />
-        </div>
-        <div class="right">
-          <!-- head -->
-          <div class="goods_head">{{ item.name }}</div>
-          <div class="head_body">
-            <div class="price">${{ item.present_price }}</div>
-            <div class="count">
-              <van-stepper
-                v-model="item.count"
-                @change="change(item.count, item.cid, item.mallPrice)"
+          <!-- 头部 -->
+          <div class="head">购物车</div>
+          <!-- 全选部分 -->
+          <div class="two">
+            <div class="box2">
+              <input type="checkbox" v-model="checkall" @change="changedall" />
+              <div v-if="flag">全选</div>
+              <div v-else>取消全选</div>
+            </div>
+            <div class="box1">
+              <div>合计:${{ Number(numbe).toFixed(2) }}</div>
+              <div>请确认订单</div>
+            </div>
+          </div>
+          <!-- 删除订单 去结算 -->
+          <div class="three">
+            <div @click="deleteShop">删除</div>
+            <div @click="tomoney">去结算</div>
+          </div>
+          <!-- 货物 -->
+          <div class="goods" v-for="(item, index) in list" :key="index">
+            <div>
+              <input
+                type="checkbox"
+                class="checs"
+                v-model="item.check"
+                @change="changed"
               />
+            </div>
+            <div class="goods_img">
+              <img :src="item.image_path" alt="" />
+            </div>
+            <div class="right">
+              <!-- head -->
+              <div class="goods_head">{{ item.name }}</div>
+              <div class="head_body">
+                <div class="price">${{ item.present_price }}</div>
+                <div class="count">
+                  <van-stepper
+                    v-model="item.count"
+                    @change="change(item.count, item.cid, item.mallPrice)"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <!-- 未登陆 -->
+    <div v-else>
+      <div class="unloggin">
+        <img src="../../assets/order.gif" alt="" />
+        <div class="unloggin1" @click="loggin">立即登陆</div>
+      </div>
+    </div>
+
     <layout></layout>
   </div>
 </template>
@@ -65,6 +80,7 @@ export default {
       list: [],
       value: "",
       allgoods: [],
+      flaguser: false,
     };
   },
   components: { Layout },
@@ -102,28 +118,32 @@ export default {
       });
       console.log(deletss);
       // console.log(deletlist);
-      this.$api
-        .deleteShop(deletss)
-        .then((res) => {
-          // console.log(res);
-          Dialog({ message: "删除成功" });
+      if (deletlist.length !== 0) {
+        this.$api
+          .deleteShop(deletss)
+          .then((res) => {
+            // console.log(res);
+            Dialog({ message: "删除成功" });
 
-          this.$api
-            .getCard()
-            .then((res) => {
-              // 重新刷新
-              this.list=res.shopList
-              // console.log(res.shopList);
-              this.$store.commit(" getcarlength", res.shopList.length);
-              localStorage.setItem("carlen", res.shopList.length);
-            })
-            .catch((err) => {
-              console.log("请求失败", err);
-            });
-        })
-        .catch((err) => {
-          console.log("请求失败", err);
-        });
+            this.$api
+              .getCard()
+              .then((res) => {
+                // 重新刷新
+                this.list = res.shopList;
+                console.log(res.shopList.length);
+                this.$store.commit("getcarlength", res.shopList.length);
+                localStorage.setItem("carlen", res.shopList.length);
+              })
+              .catch((err) => {
+                console.log("请求失败", err);
+              });
+          })
+          .catch((err) => {
+            console.log("请求失败", err);
+          });
+      } else {
+        this.$toast("请选择货物");
+      }
     },
     // 结账
     tomoney() {
@@ -142,28 +162,57 @@ export default {
         // this.$router.push({path:'/Settlement',query:{allgoods:allgoods}})
         this.$router.push({
           path: "/Settlement",
-          query: { 
-            allgoods: JSON.stringify(this.allgoods) 
-            },
+          query: {
+            allgoods: JSON.stringify(this.allgoods),
+          },
         });
       }
     },
+    // 跳转首页
+    goshopping() {
+      this.$router.push("/");
+    },
+    // 跳转登陆
+    loggin() {
+      this.$router.push("/Loggin");
+    },
+    // 判断
+    ifuser() {
+      this.flaguser = true;
+    },
   },
   mounted() {
-    this.$api
-      .getCard()
-      .then((res) => {
-        this.list = res.shopList;
-        // console.log(this.list);
-      })
-      .catch((err) => {
-        console.log("请求失败");
-      });
-    // console.log(this.username);
+    if (this.username) {
+      this.$api
+        .getCard()
+        .then((res) => {
+          this.list = res.shopList;
+          // console.log(this.list);
+        })
+        .catch((err) => {
+          console.log("请求失败");
+        });
+    }
+
+    // console.log(Number(this.usercar));
+    // 封装的方法去判断用户是否登陆
+
+    this.$utils.checkLoggin({
+      key: this.username,
+      next: this.ifuser,
+      item: "",
+    });
+    // key 存在本地的用户名的名字  next 存在用户情况下进入的下步操作  item加入购物车的id传给addcar
   },
   computed: {
+    // 检测是否登陆
     username() {
+      // console.log(this.$store.state.user1);
       return this.$store.state.user1;
+    },
+    // 检测购物车数量
+    usercar() {
+      return this.$store.state.carlenghth;
     },
     // 总价格
     numbe() {
@@ -275,5 +324,40 @@ export default {
       border-radius: 50px;
     }
   }
+}
+// 未登陆
+.unloggin {
+  width: 100vw;
+  height: 121.867vw;
+  img {
+    width: 100%;
+    height: 164.867vw;
+  }
+  .unloggin1 {
+    // position: absolute;
+    // top: 1px;
+    position: absolute;
+    top: 111px;
+    left: 35%;
+    width: 125px;
+    text-align: center;
+    line-height: 43px;
+    height: 43px;
+    font-size: 25px;
+    /* background-color: red; */
+    color: red;
+    border: 1px solid;
+  }
+}
+// 无货物
+.goshopping {
+  text-align: center;
+  line-height: 100px;
+  border: 1px solid #fff;
+  width: 200px;
+  height: 100px;
+  font-size: 25px;
+  color: red;
+  margin: 50px auto;
 }
 </style>

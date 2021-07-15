@@ -33,7 +33,7 @@
               class="goodsbox"
               v-for="(item2, index2) in goods"
               :key="index2"
-              @click="retur(item2.id)"
+              @click="retur(item2.id),saveHistory(item2)"
             >
               <div class="goods_img">
                 <img :src="item2.image_path" alt="" />
@@ -101,6 +101,14 @@ export default {
     retur(id){
       // console.log(id);
       this.$router.push({path:'/Details',query:{ids:id}})
+    },
+    // 浏览记录
+    saveHistory(item){
+      console.log(item);
+      this.$set(item,'goodsName',item.name)
+      this.$set(item,'mallPrice',item.present_price)
+      this.$utils.saveHistory({ key: "browse", data: item, attr: "id" });
+
     }
   },
 

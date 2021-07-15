@@ -5,7 +5,10 @@
       <div class="hot_body">
         <div class="hot_box" v-for="(item, index) in hot_list" :key="index">
           <div class="hot_ig">
-            <img :src="item.image"  @click="details(item.goodsId)" />
+            <img
+              :src="item.image"
+              @click="details(item.goodsId) "
+            />
           </div>
           <div class="font">{{ item.name }}</div>
           <div class="price">
@@ -25,7 +28,7 @@ export default {
     hot_list: {
       type: Array,
       required: true,
-      ids:''
+      ids: "",
     },
   },
   data() {
@@ -33,10 +36,10 @@ export default {
   },
   components: {},
   methods: {
-    details(id){
+    details(id) {
       // console.log(id);
       this.$router.push({ path: "/Details", query: { ids: id } });
-    }
+    },
   },
   mounted() {},
   computed: {},

@@ -14,8 +14,8 @@
           <van-icon name="location-o" />
         </div>
         <div class="center">
-          <div class="addrname">收获地址:{{ defaultAdd.name }}</div>
-          <div class="addres">收获地址：{{ defaultAdd.address }}</div>
+          <div class="addrname">收货人:{{ defaultAdd.name }}</div>
+          <div class="addres">收货地址：{{ defaultAdd.address }}</div>
           <div class="poin">(收获不方便，可以选择免费收获服务)</div>
         </div>
         <div class="number">
@@ -31,7 +31,12 @@
 <script>
 export default {
   name: "",
-  props: {},
+  props: {
+    // defaultAddd:{
+    //   type:Object,
+    //   required:true
+    // }
+  },
   data() {
     return {
       // 默认是否有地址

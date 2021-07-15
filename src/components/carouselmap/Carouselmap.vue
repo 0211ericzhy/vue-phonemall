@@ -24,15 +24,14 @@ export default {
   },
   components: {},
   methods: {
-    details(id){
+    details(id) {
       // console.log(id);
-      this.$utils.saveHistory({data:id,attr:'name'})
+      this.$utils.saveHistory({ data: id, attr: "name" });
       this.$router.push({ path: "/Details", query: { ids: id } });
-    }
+    },
   },
   mounted() {
     // console.log(this.slides);
-   
   },
   computed: {},
   watch: {},
@@ -42,10 +41,10 @@ export default {
 <style lang='scss' scoped>
 .my-swipe {
   width: 375px;
-  height: 300px;
+  height: 72vw;
   img {
     width: 375px;
-    height: 300px;
+    height: 72vw;
   }
 }
 </style>
